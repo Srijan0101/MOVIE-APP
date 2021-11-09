@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  
+.media:hover {
+background-color: #4f5050;
+border-radius: 10px;
+box-shadow:  5px 5px 4px #1d1d1d,
+             -5px -5px 4px #1d1d1d;
+}
+
+@media (max-width: 550px) {
+.media {
+    width: 46%;
+}
+}
+
+.poster {
+border-radius: 10px;
+}
+
+.title {
+width: 100%;
+text-align: center;
+font-size: 17px;
+padding: 8px 0;
+text-transform: uppercase;
+}
+
+.subtitle {
+display: flex;
+justify-content: space-between;
+padding-bottom: 3px;
+padding: 0 2px;
+padding-bottom: 3px;
+font-weight: 200;
+}
+
+.poster{
+    height: 280px;
+}
